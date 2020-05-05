@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPP-BasicToAdvanced", "CPP-
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Variables", "Variables\Variables.vcxproj", "{C604F3E1-3D86-40DE-BF5A-7BFD8AA50664}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Functions", "Functions\Functions.vcxproj", "{5BB522BA-775B-40BC-BDB3-08E93228AEA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{C604F3E1-3D86-40DE-BF5A-7BFD8AA50664}.Release|x64.Build.0 = Release|x64
 		{C604F3E1-3D86-40DE-BF5A-7BFD8AA50664}.Release|x86.ActiveCfg = Release|Win32
 		{C604F3E1-3D86-40DE-BF5A-7BFD8AA50664}.Release|x86.Build.0 = Release|Win32
+		{5BB522BA-775B-40BC-BDB3-08E93228AEA0}.Debug|x64.ActiveCfg = Debug|x64
+		{5BB522BA-775B-40BC-BDB3-08E93228AEA0}.Debug|x64.Build.0 = Debug|x64
+		{5BB522BA-775B-40BC-BDB3-08E93228AEA0}.Debug|x86.ActiveCfg = Debug|Win32
+		{5BB522BA-775B-40BC-BDB3-08E93228AEA0}.Debug|x86.Build.0 = Debug|Win32
+		{5BB522BA-775B-40BC-BDB3-08E93228AEA0}.Release|x64.ActiveCfg = Release|x64
+		{5BB522BA-775B-40BC-BDB3-08E93228AEA0}.Release|x64.Build.0 = Release|x64
+		{5BB522BA-775B-40BC-BDB3-08E93228AEA0}.Release|x86.ActiveCfg = Release|Win32
+		{5BB522BA-775B-40BC-BDB3-08E93228AEA0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
