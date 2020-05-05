@@ -5,16 +5,34 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    //  char, short, int, long, long long; 1 byte, 2 bytes, 4 bytes, 4 bytes and 8 bytes respectedly
+    //  float, double, long double; decimals
+
+    char a = 65;   //  'A' or 65 = A, that's the number associated with the character
+
+    int variable = 8;   //  int is a 4 bytes size -2b to 2b (b = billion), 2^31, and a bit for the sign
+    unsigned var = 123; //  This variable does not has a sign, therefore its value is 2^32 = 4b
+    float floatVar = 5.5;   //  it's not a float, it's a double
+    double douableVar = 5.5;
+    float realFloat = 5.5f; //  This is the correct way to declare a double
+
+    bool isBool = false;    //  0 = false, 1 = true. 1 byte of size to boolean.
+
+    std::cout << variable << std::endl;
+    std::cout << a << std::endl;
+
+    variable = 20;
+
+    std::cout << variable << std::endl;
+
+    std::cout << " ************* Size of Data Types ************* " << std::endl;
+    std::cout << "Size of bool: ";
+    std::cout << sizeof(bool);
+
+    //  Pointer declaration:
+    bool* isPointer;
+    //  Reference declaration:
+    //  bool& isReferenced;
+
+    std::cin.get();
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
