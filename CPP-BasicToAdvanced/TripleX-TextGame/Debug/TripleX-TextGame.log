@@ -1,0 +1,3 @@
+﻿  TripleX-TextGame.cpp
+D:\GitHub Repos\CPP-Intro\CPP-BasicToAdvanced\TripleX-TextGame\TripleX-TextGame.cpp(57,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  TripleX-TextGame.vcxproj -> D:\GitHub Repos\CPP-Intro\CPP-BasicToAdvanced\Debug\TripleX-TextGame.exe
