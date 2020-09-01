@@ -1,2 +1,3 @@
 ﻿  Variables.cpp
+D:\GitHub Repos\CPP-Intro\CPP-BasicToAdvanced\Variables\Variables.cpp(33,11): warning C4101: 'isPointer': unreferenced local variable
   Variables.vcxproj -> D:\GitHub Repos\CPP-Intro\CPP-BasicToAdvanced\Debug\Variables.exe

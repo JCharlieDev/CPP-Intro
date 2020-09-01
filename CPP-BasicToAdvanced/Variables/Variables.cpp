@@ -14,7 +14,7 @@ int main()
     unsigned var = 123; //  This variable does not has a sign, therefore its value is 2^32 = 4b
     float floatVar = 5.5;   //  it's not a float, it's a double
     double douableVar = 5.5;
-    float realFloat = 5.5f; //  This is the correct way to declare a double
+    float realFloat = 5.5f; //  This is the correct way to declare a float
 
     bool isBool = false;    //  0 = false, 1 = true. 1 byte of size to boolean.
 
