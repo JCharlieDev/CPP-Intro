@@ -1,0 +1,4 @@
+﻿  Main.cpp
+D:\GitHub Repos\CPP-Intro\CPP-BasicToAdvanced\Static\Main.cpp(52,9): warning C4101: 'entity': unreferenced local variable
+D:\GitHub Repos\CPP-Intro\CPP-BasicToAdvanced\Static\Main.cpp(54,9): warning C4101: 'entity1': unreferenced local variable
+  Static.vcxproj -> D:\GitHub Repos\CPP-Intro\CPP-BasicToAdvanced\Debug\Static.exe
