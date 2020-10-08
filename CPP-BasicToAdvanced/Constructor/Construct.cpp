@@ -9,15 +9,17 @@ public:
 	{
 		X = 0.0f;
 		Y = 0.0f;
+
+		std::cout << "Created Entity!" << std::endl;
 	}
-	Entity(float x, float y)
-	{
-		X = x;
-		Y = y;
-	}
+	//Entity(float x, float y)
+	//{
+	//	X = x;
+	//	Y = y;
+	//}
 	~Entity()	//This is the Destructor
 	{
-
+		std::cout << "Destroyed Entity!" << std::endl;
 	}
 
 	void Print()
@@ -37,13 +39,16 @@ public:
 	}
 };
 
+void Function()
+{
+	Entity e;
+	e.Print();
+	//e.~Entity();	//Another way to call the destructor
+}
+
 int main()
 {
-	Entity e(10.0f, 5.0f);
-
-	std::cout << e.X << ", " << e.Y << std::endl;
-
-	e.Print();
+	Function();
 
 	std::cin.get();
 }

@@ -1,0 +1,3 @@
+﻿  Main.cpp
+D:\GitHub Repos\CPP-Intro\CPP-BasicToAdvanced\VirtualFunctions\Main.cpp(54,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  VirtualFunctions.vcxproj -> D:\GitHub Repos\CPP-Intro\CPP-BasicToAdvanced\Debug\VirtualFunctions.exe
